@@ -1,0 +1,14 @@
+{
+  "name": "reverse-string",
+  "version": "1.0.0",
+  "description": "reverse a string",
+  "main": "solution.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^23.4.0"
+  }
+}
