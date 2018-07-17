@@ -14,5 +14,8 @@ describe('Solution Module', function() {
     it('should return a reversed string', function() {
       expect(solution.reverseString3(str)).toEqual('dlrow olleh')
     })
+    it('should return a reversed string', function() {
+      expect(solution.reverseString4(str)).toEqual('dlrow olleh')
+    })
   })
 })
