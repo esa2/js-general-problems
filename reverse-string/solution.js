@@ -23,3 +23,7 @@ solution.reverseString3 = str => {
   }
   return reverse
 }
+
+solution.reverseString4 = str => {
+  return str.split('').reduce((reverse, char) => char + reverse, '')
+}
