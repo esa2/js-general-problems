@@ -6,13 +6,13 @@ solution.chunk = (arr, size) => {
   let chunked = []
 
     for (let ele of arr) {
-      if (chunked.length === 0 || chunked[chunked.length] - 1 === size) {
-        console.log('size', size)
-        console.log('1', ele)
+      const last = chunked[chunked.length - 1]
+      console.log('last', last)
+
+      if (!last || last.length === size) {
         chunked.push([ele])
       } else {
-        console.log('2', ele)
-        chunked[chunked.length - 1].push(ele)
+        last.push(ele)
       }
     }
     return chunked
