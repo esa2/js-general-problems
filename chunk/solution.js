@@ -17,3 +17,7 @@ solution.chunk = (arr, size) => {
     }
     return chunked
 }
+
+solution.chunk2 = (arr, size) => {
+  
+}
