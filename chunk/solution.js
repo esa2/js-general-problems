@@ -3,7 +3,7 @@
 const solution = module.exports = {}
 
 solution.chunk = (arr, size) => {
-  let save = []
+  let chunked = []
 
     for (let ele of arr) {
       const last = chunked[chunked.length - 1]
@@ -15,7 +15,7 @@ solution.chunk = (arr, size) => {
         last.push(ele)
       }
     }
-    return save
+    return chunked
 }
 
 solution.chunk2 = (arr, size) => {
